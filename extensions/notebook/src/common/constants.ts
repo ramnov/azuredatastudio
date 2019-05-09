@@ -51,7 +51,7 @@ export enum CommandContext {
 	WizardServiceEnabled = 'wizardservice:enabled'
 }
 
-export const pythonOfflinePipPackagesUrl = 'https://go.microsoft.com/fwlink/?linkid=2086702';
-export const pythonWindowsInstallUrl = 'https://go.microsoft.com/fwlink/?linkid=2074021';
-export const pythonMacInstallUrl = 'https://go.microsoft.com/fwlink/?linkid=2065976';
-export const pythonLinuxInstallUrl = 'https://go.microsoft.com/fwlink/?linkid=2065975';
+export const pythonOfflinePipPackagesUrl = 'https://bundledpython.blob.core.windows.net/test/python-3.6.6-0.0.1-offlinePackages.zip';
+export const pythonWindowsInstallUrl = 'https://bundledpython.blob.core.windows.net/test/python-3.6.6-win-x64-0.0.1-offline.zip';
+export const pythonMacInstallUrl = 'https://bundledpython.blob.core.windows.net/test/python-3.6.6-osx-0.0.1.tar.gz';
+export const pythonLinuxInstallUrl = 'https://bundledpython.blob.core.windows.net/test/python-3.6.6-linux-x64-0.0.1.tar.gz';
