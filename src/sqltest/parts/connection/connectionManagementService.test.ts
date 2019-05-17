@@ -161,6 +161,7 @@ suite('SQL ConnectionManagementService tests', () => {
 			resourceProviderStubMock.object,
 			undefined,
 			accountManagementService.object,
+			undefined,
 			undefined
 		);
 		return connectionManagementService;
